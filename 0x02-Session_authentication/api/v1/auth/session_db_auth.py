@@ -7,10 +7,10 @@ from models.user_session import UserSession
 
 
 class SessionDBAuth(SessionExpAuth):
-    """Session in database Class"""
+    '''Session in database Class'''
 
     def create_session(self, user_id=None):
-        """Creation session database"""
+        '''Creation session database'''
         session_id = super().create_session(user_id)
 
         if session_id is None:
@@ -24,7 +24,7 @@ class SessionDBAuth(SessionExpAuth):
         return session_id
 
     def user_id_for_session_id(self, session_id=None):
-        """User ID for Session ID Database"""
+        '''User ID for Session ID Database'''
         if session_id is None:
             return None
 
@@ -47,7 +47,7 @@ class SessionDBAuth(SessionExpAuth):
         return user_session.user_id
 
     def destroy_session(self, request=None):
-        """Remove Session from Database"""
+        '''Remove Session from Database'''
         if request is None:
             return False
 
