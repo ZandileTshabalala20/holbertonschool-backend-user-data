@@ -1,15 +1,6 @@
 # 0x08. User authentication service
-:open_file_folder: Specializations - Web Stack programming ― Back-end  
-:bust_in_silhouette: by Emmanuel Turlay, Staff Software Engineer at Cruise  
-:copyright: **[Holberton School](https://www.holbertonschool.com/)**  
-:bookmark: authentication | python | user authentication | user authentication service
 
-## Resources
-### Read or watch:
-* [Flask documentation](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
-* [Requests module](https://requests.kennethreitz.org/en/master/user/quickstart/)
-* [HTTP status codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
-* [mapping declaration](https://docs.sqlalchemy.org/en/13/orm/tutorial.html#declare-a-mapping)
+
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
@@ -51,5 +42,4 @@ pip3 install bcrypt
 * [x] 20. End-to-end integration test
 
 ## Software engineer
-Javier Andrés Garzón Patarroyo  
-:octocat: [GitHub](https://github.com/javierandresgp/)
+Zandile Tshabalala
